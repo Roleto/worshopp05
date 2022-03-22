@@ -29,7 +29,7 @@ namespace MessageSenderApp.Endpoint
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "MovieDbApp.Endpoint", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "MessageSenderApp.Endpoint", Version = "v1" });
             });
             services.AddControllersWithViews();
         }

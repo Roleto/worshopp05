@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MessageSenderApp.Logic
 {
-    interface ILogic
+    public interface ILogic
     {
         void SendMessage(Message message);
         void ReciveMessage(Message message);

@@ -10,4 +10,8 @@
 
 	</ItemGroup>
 
+	<ItemGroup>
+	  <ProjectReference Include="..\MessageSenderApp.Logic\MessageSenderApp.Logic.csproj" />
+	</ItemGroup>
+
 </Project>
