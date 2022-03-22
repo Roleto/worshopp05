@@ -20,7 +20,7 @@ namespace MessageSenderApp.Endpoint
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
-                    webBuilder.UseStartup<Startup>();
+                    webBuilder.UseStartup<Startup>().UseUrls("http://*:33333");
                 });
     }
 }

@@ -1,5 +1,5 @@
-﻿using MessageSenderApp.Endpoint.Services;
-using MessageSenderApp.Logic;
+﻿using MessageSenderApp.Endpoint.Models;
+using MessageSenderApp.Endpoint.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.SignalR;
@@ -15,20 +15,17 @@ namespace MessageSenderApp.Endpoint.Controllers
 
     public class MessageController : ControllerBase
     {
-        ILogic logic;
         IHubContext<SignalRHub> hub;
 
-        public MessageController(ILogic logic, IHubContext<SignalRHub> hub)
+        public MessageController(IHubContext<SignalRHub> hub)
         {
-            this.logic = logic;
             this.hub = hub;
         }
 
         [HttpPost]
         public void Send([FromBody] Message value)
         {
-            this.logic.SendMessage(value);
-            this.hub.Clients.All.SendAsync("MessageSend", value.MessageValue);
+            this.hub.Clients.All.SendAsync("MessageSend", value);
         }
     }
 }

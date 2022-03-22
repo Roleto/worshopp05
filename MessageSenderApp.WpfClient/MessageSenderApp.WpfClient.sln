@@ -5,8 +5,6 @@ VisualStudioVersion = 16.0.31911.196
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MessageSenderApp.WpfClient", "MessageSenderApp.WpfClient\MessageSenderApp.WpfClient.csproj", "{037F5211-928E-4507-9BCA-4E2C1500633A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageSenderApp.Logic", "MessageSenderApp.Logic\MessageSenderApp.Logic.csproj", "{0AA11EF3-8E8C-4BCB-8FFD-3EA9BA9206E1}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageSenderApp.Endpoint", "MessageSenderApp.Endpoint\MessageSenderApp.Endpoint.csproj", "{7923615A-588E-47FC-959B-6698453D46D2}"
 EndProject
 Global
@@ -19,10 +17,6 @@ Global
 		{037F5211-928E-4507-9BCA-4E2C1500633A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{037F5211-928E-4507-9BCA-4E2C1500633A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{037F5211-928E-4507-9BCA-4E2C1500633A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0AA11EF3-8E8C-4BCB-8FFD-3EA9BA9206E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0AA11EF3-8E8C-4BCB-8FFD-3EA9BA9206E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0AA11EF3-8E8C-4BCB-8FFD-3EA9BA9206E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0AA11EF3-8E8C-4BCB-8FFD-3EA9BA9206E1}.Release|Any CPU.Build.0 = Release|Any CPU
 		{7923615A-588E-47FC-959B-6698453D46D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7923615A-588E-47FC-959B-6698453D46D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7923615A-588E-47FC-959B-6698453D46D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
