@@ -24,5 +24,10 @@ namespace MessageSenderApp.WpfClient
         {
             InitializeComponent();
         }
+
+        private void sendMessage_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
